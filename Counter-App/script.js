@@ -31,3 +31,5 @@ function updateCounter() {
         counter.style.color = '#667eea';
     }
 }
+
+/* Add increase button */
