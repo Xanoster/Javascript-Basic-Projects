@@ -34,3 +34,4 @@ function updateCounter() {
 
 /* Add increase button */
 /* Add decrease button */
+/* Add reset button */
