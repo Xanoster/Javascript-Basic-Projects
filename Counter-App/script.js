@@ -35,3 +35,4 @@ function updateCounter() {
 /* Add increase button */
 /* Add decrease button */
 /* Add reset button */
+/* Add color change on value */
