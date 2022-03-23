@@ -58,3 +58,5 @@ function getRandomNumber16() {
 // feat: add hex color generation function
 
 // feat: toggle between simple and hex modes
+
+// fix: minor logic cleanup and final polish
