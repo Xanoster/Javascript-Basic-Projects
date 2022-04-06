@@ -38,3 +38,5 @@ function calculate() {
 }
 
 // feat: implement number appending logic
+
+// feat: handle arithmetic operators
