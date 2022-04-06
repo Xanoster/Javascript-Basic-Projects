@@ -40,3 +40,5 @@ function calculate() {
 // feat: implement number appending logic
 
 // feat: handle arithmetic operators
+
+// feat: add clear and delete functionality
