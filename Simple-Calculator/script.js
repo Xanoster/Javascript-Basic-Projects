@@ -42,3 +42,5 @@ function calculate() {
 // feat: handle arithmetic operators
 
 // feat: add clear and delete functionality
+
+// feat: implement calculation using eval
