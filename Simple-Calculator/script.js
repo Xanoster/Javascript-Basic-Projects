@@ -44,3 +44,5 @@ function calculate() {
 // feat: add clear and delete functionality
 
 // feat: implement calculation using eval
+
+// fix: handle decimal point and error cases
