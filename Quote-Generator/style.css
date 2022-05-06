@@ -1,0 +1,52 @@
+body {
+    background-color: #607d8b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.quote-container {
+    width: auto;
+    max-width: 900px;
+    padding: 30px 50px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.quote-text {
+    font-size: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+}
+
+.quote-author {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #555;
+}
+
+.button-container {
+    margin-top: 30px;
+}
+
+button {
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+/* style: add glassmorphism effect to container */
