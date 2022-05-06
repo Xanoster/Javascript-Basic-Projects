@@ -24,3 +24,5 @@ newQuoteBtn.addEventListener('click', getNewQuote);
 getNewQuote();
 
 // feat: define initial local quote array
+
+// feat: implement random selection logic
