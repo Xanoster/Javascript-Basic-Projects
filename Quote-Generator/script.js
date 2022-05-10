@@ -26,3 +26,5 @@ getNewQuote();
 // feat: define initial local quote array
 
 // feat: implement random selection logic
+
+// feat: bind new quote button event
