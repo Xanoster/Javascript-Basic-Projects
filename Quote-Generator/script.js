@@ -28,3 +28,5 @@ getNewQuote();
 // feat: implement random selection logic
 
 // feat: bind new quote button event
+
+// feat: load first quote on page load
