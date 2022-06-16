@@ -11,3 +11,5 @@ closeBtn.addEventListener('click', function () {
 });
 
 // feat: implement show modal on button click
+
+// feat: implement close modal logic
