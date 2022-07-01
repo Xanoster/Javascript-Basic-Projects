@@ -1,0 +1,104 @@
+body {
+    background: #f1f5f8;
+    color: #102a42;
+    font-family: Arial, sans-serif;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.section-center {
+    background: white;
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 35rem;
+    margin-top: 5rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s linear;
+}
+
+.grocery-form h3 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.form-control {
+    display: flex;
+    justify-content: center;
+}
+
+#grocery {
+    padding: 0.25rem;
+    padding-left: 1rem;
+    background: #f1f5f8;
+    border: transparent;
+    border-radius: 0.25rem 0 0 0.25rem;
+    flex: 1 0 auto;
+}
+
+.submit-btn {
+    background: #49a6e9;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0 0.25rem 0.25rem 0;
+    border: transparent;
+    cursor: pointer;
+    color: white;
+    transition: all 0.3s linear;
+}
+
+.submit-btn:hover {
+    background: #2d8ac7;
+    color: white;
+}
+
+.grocery-container {
+    margin-top: 2rem;
+    visibility: hidden;
+}
+
+.show-container {
+    visibility: visible;
+}
+
+.grocery-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    transition: all 0.3s linear;
+    padding: 0.25rem 1rem;
+    border-radius: 0.25rem;
+}
+
+.grocery-item:hover {
+    background: #f1f5f8;
+}
+
+.title {
+    margin-bottom: 0;
+    color: #102a42;
+    letter-spacing: 2px;
+}
+
+.clear-btn {
+    text-transform: capitalize;
+    width: 10rem;
+    height: 1.5rem;
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+    margin-top: 1.25rem;
+    color: #c0392b;
+    letter-spacing: 2px;
+    background: transparent;
+    border: transparent;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.clear-btn:hover {
+    color: #e74c3c;
+}
+/* style: basic styling for form and center section */
