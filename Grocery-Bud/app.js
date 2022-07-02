@@ -53,3 +53,5 @@ function setBackToDefault() {
 }
 
 // feat: implement basic add item functionality
+
+// feat: create delete item logic
