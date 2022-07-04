@@ -55,3 +55,5 @@ function setBackToDefault() {
 // feat: implement basic add item functionality
 
 // feat: create delete item logic
+
+// feat: implement clear all items feature
