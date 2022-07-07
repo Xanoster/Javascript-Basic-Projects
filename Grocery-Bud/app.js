@@ -57,3 +57,5 @@ function setBackToDefault() {
 // feat: create delete item logic
 
 // feat: implement clear all items feature
+
+// refactor: add setBackToDefault helper function
