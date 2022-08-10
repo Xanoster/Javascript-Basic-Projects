@@ -33,3 +33,5 @@ updateClock();
 // feat: implement updateClock with setInterval
 
 // feat: get current hours, minutes, and seconds
+
+// feat: implement AM/PM logic
