@@ -31,3 +31,5 @@ function updateClock() {
 updateClock();
 
 // feat: implement updateClock with setInterval
+
+// feat: get current hours, minutes, and seconds
