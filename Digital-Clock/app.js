@@ -35,3 +35,5 @@ updateClock();
 // feat: get current hours, minutes, and seconds
 
 // feat: implement AM/PM logic
+
+// feat: add zero padding to time units
