@@ -37,3 +37,5 @@ updateClock();
 // feat: implement AM/PM logic
 
 // feat: add zero padding to time units
+
+// refactor: use setTimeout for self-correcting drift
