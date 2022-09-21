@@ -76,3 +76,5 @@ randomBtn.addEventListener("click", function () {
 // feat: define review objects array
 
 // feat: implement showPerson helper function
+
+// feat: add event listeners for navigation
