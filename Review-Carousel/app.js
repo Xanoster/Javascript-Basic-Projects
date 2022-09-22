@@ -78,3 +78,5 @@ randomBtn.addEventListener("click", function () {
 // feat: implement showPerson helper function
 
 // feat: add event listeners for navigation
+
+// feat: add surprise me functionality
