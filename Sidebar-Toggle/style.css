@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f5f8;
+}
+
+.sidebar-toggle {
+    position: fixed;
+    top: 2rem;
+    right: 3rem;
+    font-size: 2rem;
+    background: transparent;
+    border-color: transparent;
+    color: #49a6e9;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    animation: bounce 2s infinite;
+}
+
+.sidebar-toggle:hover {
+    color: #2d8ac7;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    row-gap: 1rem;
+    transition: all 0.3s linear;
+    transform: translate(-100%);
+}
+
+.show-sidebar {
+    transform: translate(0);
+}
+
+@media screen and (min-width: 676px) {
+    .sidebar {
+        width: 400px;
+    }
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.close-btn {
+    font-size: 1.75rem;
+    background: transparent;
+    border-color: transparent;
+    color: #c0392b;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.close-btn:hover {
+    color: #e74c3c;
+    transform: rotate(90deg);
+}
+
+.links a {
+    display: block;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    padding: 1rem 1.5rem;
+    color: #102a42;
+    transition: all 0.3s linear;
+    text-decoration: none;
+}
+
+.links a:hover {
+    background: #ebf7ff;
+    color: #49a6e9;
+    padding-left: 1.75rem;
+}
+
+.social-icons {
+    justify-self: center;
+    display: flex;
+    padding-bottom: 2rem;
+}
+
+.social-icons a {
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    color: #49a6e9;
+    transition: all 0.3s linear;
+}
+
+.social-icons a:hover {
+    color: #102a42;
+}
+
+ul {
+    list-style-type: none;
+}
+/* style: basic mobile-first sidebar layout */
