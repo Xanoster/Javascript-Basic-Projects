@@ -11,3 +11,5 @@ closeBtn.addEventListener("click", function () {
 });
 
 // feat: implement toggle sidebar logic
+
+// feat: implement close sidebar functionality
