@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f1f5f8;
+    color: #102a42;
+    font-family: Arial, sans-serif;
+}
+
+.section-center {
+    width: 90vw;
+    margin: 5rem auto;
+    max-width: 1170px;
+    display: grid;
+    gap: 3rem 2rem;
+}
+
+@media screen and (min-width: 992px) {
+    .section-center {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.gift-img {
+    margin-bottom: 2rem;
+}
+
+.gift-img img {
+    width: 100%;
+    display: block;
+    height: 30rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.giveaway {
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.deadline {
+    display: flex;
+}
+
+.deadline-format {
+    background: #102a42;
+    color: white;
+    margin-right: 1rem;
+    width: 5rem;
+    height: 5rem;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+.deadline-format h4 {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.deadline-format span {
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+}
+/* style: basic styling for timer elements */
