@@ -75,3 +75,5 @@ let countdown = setInterval(getRemainingTime, 1000);
 getRemainingTime();
 
 // feat: implement basic date logic and array definitions
+
+// feat: calculate remaining time and update UI
