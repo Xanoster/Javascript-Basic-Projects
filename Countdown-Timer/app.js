@@ -77,3 +77,5 @@ getRemainingTime();
 // feat: implement basic date logic and array definitions
 
 // feat: calculate remaining time and update UI
+
+// feat: format date string and deadline items
