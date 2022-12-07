@@ -79,3 +79,5 @@ getRemainingTime();
 // feat: calculate remaining time and update UI
 
 // feat: format date string and deadline items
+
+// feat: add expired state handling
