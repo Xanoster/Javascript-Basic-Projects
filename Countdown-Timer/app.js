@@ -81,3 +81,5 @@ getRemainingTime();
 // feat: format date string and deadline items
 
 // feat: add expired state handling
+
+// fix: logic fix for minute formatting
